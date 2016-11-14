@@ -4,19 +4,19 @@
 ## Help
 
 '''
-(Pdb) help
+    (Pdb) help
 
-Documented commands (type help <topic>):
-========================================
-EOF    c          d        h         list      q        rv       undisplay
-a      cl         debug    help      ll        quit     s        unt      
-alias  clear      disable  ignore    longlist  r        source   until    
-args   commands   display  interact  n         restart  step     up       
-b      condition  down     j         next      return   tbreak   w        
-break  cont       enable   jump      p         retval   u        whatis   
-bt     continue   exit     l         pp        run      unalias  where    
+    Documented commands (type help <topic>):
+    ========================================
+    EOF    c          d        h         list      q        rv       undisplay
+    a      cl         debug    help      ll        quit     s        unt      
+    alias  clear      disable  ignore    longlist  r        source   until    
+    args   commands   display  interact  n         restart  step     up       
+    b      condition  down     j         next      return   tbreak   w        
+    break  cont       enable   jump      p         retval   u        whatis   
+    bt     continue   exit     l         pp        run      unalias  where    
 
-Miscellaneous help topics:
+    Miscellaneous help topics:
 ==========================
 
 '''
@@ -43,21 +43,21 @@ Miscellaneous help topics:
 1. Print the argument list of the current function.
 2. syntaxt: a | args
 '''
->>> def into_account(m, age=18):
-...     a=4
-...     b=c 
-...     m = m/0
-...     return 
-... 
->>> import pdb
->>> pdb.runcall(into_account, 4)
-> <stdin>(2)into_account()
-(Pdb) a
-m = 4
-age = 18
-(Pdb) args
-m = 4
-age = 18
+    >>> def into_account(m, age=18):
+    ...     a=4
+    ...     b=c 
+    ...     m = m/0
+    ...     return 
+    ... 
+    >>> import pdb
+    >>> pdb.runcall(into_account, 4)
+    > <stdin>(2)into_account()
+    (Pdb) a
+    m = 4
+    age = 18
+    (Pdb) args
+    m = 4
+    age = 18
 '''
 
 ### alias
@@ -71,23 +71,23 @@ age = 18
         context of most commands.  'bt' is an alias for this command.
 2. Where | w | bt
 '''
->>> def into_account(m, age=18):
-...     a=4
-...     b=c 
-...     m = m/0
-...     return 
-... 
->>> import pdb
->>> pdb.runcall(into_account, 4)
-(Pdb) w
-  /usr/lib/python3.5/bdb.py(465)runcall()
--> res = func(*args, **kwds)
-> <stdin>(2)into_account()
-(Pdb) where
-  /usr/lib/python3.5/bdb.py(465)runcall()
--> res = func(*args, **kwds)
-> <stdin>(2)into_account()
-(Pdb) 
+    >>> def into_account(m, age=18):
+    ...     a=4
+    ...     b=c 
+    ...     m = m/0
+    ...     return 
+    ... 
+    >>> import pdb
+    >>> pdb.runcall(into_account, 4)
+    (Pdb) w
+      /usr/lib/python3.5/bdb.py(465)runcall()
+    -> res = func(*args, **kwds)
+    > <stdin>(2)into_account()
+    (Pdb) where
+      /usr/lib/python3.5/bdb.py(465)runcall()
+    -> res = func(*args, **kwds)
+    > <stdin>(2)into_account()
+    (Pdb) 
 '''
 
 ### c(ont(inue))
@@ -142,26 +142,26 @@ age = 18
 2. q(uit) | exit
 
 '''
->>> quit()
-guinslym@guinslym-ER883AA-ABA-m7470n:~$ python
-Python 3.5.2 (default, Sep 10 2016, 08:21:44) 
-[GCC 5.4.0 20160609] on linux
-Type "help", "copyright", "credits" or "license" for more information.
->>> def into_account(m, age=18):
-...     a=4
-...     b=c 
-...     m = m/0
-...     return m
-... 
->>> import pdb
->>> pdb.runcall(into_account, 7)
-> <stdin>(2)into_account()
-(Pdb) q
->>> q
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-NameError: name 'q' is not defined
->>> 
+    >>> quit()
+    guinslym@guinslym-ER883AA-ABA-m7470n:~$ python
+    Python 3.5.2 (default, Sep 10 2016, 08:21:44) 
+    [GCC 5.4.0 20160609] on linux
+    Type "help", "copyright", "credits" or "license" for more information.
+    >>> def into_account(m, age=18):
+    ...     a=4
+    ...     b=c 
+    ...     m = m/0
+    ...     return m
+    ... 
+    >>> import pdb
+    >>> pdb.runcall(into_account, 7)
+    > <stdin>(2)into_account()
+    (Pdb) q
+    >>> q
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    NameError: name 'q' is not defined
+    >>> 
 '''
 
 
@@ -199,3 +199,8 @@ NameError: name 'q' is not defined
 ### where
 ### pdb
 ### exec
+
+
+
+helper:
+http://stackoverflow.com/questions/14296603/trace-an-arbitrary-python-command-issued-in-pdb
