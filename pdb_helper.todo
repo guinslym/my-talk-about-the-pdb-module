@@ -7,3 +7,10 @@ Script:
   ☐ a dictionary
   ☐ a class
   ☐ a for loop
+
+Purpose:
+  ☐ Loop throught meetup user names
+  ☐ Find which ones have a odd or even numbers of letters
+  ☐ Create a dictionnary contains their username and their last login date
+  ☐ Have a class name Address for their address
+  ☐ have a for loop that acts like a Time.sleep(1)
