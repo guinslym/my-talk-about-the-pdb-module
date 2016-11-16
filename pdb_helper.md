@@ -208,7 +208,37 @@ For example, `<section></section>` should be wrapped as "inline".
 ### until
 ### up
 ### whatis
-### where
+
+
+### _whatis_
+
+> **Print the type of the argument.**
+*   **Syntax**
+    *   whatis arg
+
+
+``` python
+C:\Users\gmond071\Documents\GitHub\pdb-helper-talk (master)
+λ python script.py
+> c:\users\gmond071\documents\github\pdb-helper-talk\script.py(12)into_account()
+-> m = m/0
+(Pdb) list
+  7
+  8     def into_account(m, age=18):
+  9         a=4
+ 10         b=2
+ 11         import pdb; pdb.set_trace()
+ 12  ->     m = m/0
+ 13         return m
+ 14
+ 15
+ 16
+ 17
+(Pdb) whatis b
+<class 'int'>
+(Pdb)
+``` 
+
 
 ### _w(here)_
 
