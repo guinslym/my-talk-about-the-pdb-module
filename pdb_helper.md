@@ -215,8 +215,8 @@ For example, `<section></section>` should be wrapped as "inline".
 > **Print a stack trace, with the most recent frame at the bottom.
     An arrow indicates the "current frame", which determines the
     context of most commands.  'bt' is an alias for this command.**
-
-*   where | w | bt
+*   **alias(es)**
+    *   where | w | bt
 
 ``` python
     λ python script.py
