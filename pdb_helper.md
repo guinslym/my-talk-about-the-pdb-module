@@ -1,6 +1,11 @@
 #PDB helper
 
 
+# Table of Contents
+  * [Chapter 1](#chapter-1)
+  * [Chapter 2](#chapter-2)
+  * [Chapter 3](#chapter-3)
+
 ## Help
 
 '''
@@ -132,10 +137,6 @@ For example, `<section></section>` should be wrapped as "inline".
 ### disable
 
 ### display
-
-
-### down
-
 
 ### _down_
 
@@ -408,3 +409,13 @@ C:\Users\gmond071\Documents\GitHub\pdb-helper-talk (master)
 
 helper:
 http://stackoverflow.com/questions/14296603/trace-an-arbitrary-python-command-issued-in-pdb
+
+
+## Chapter 1 <a id="chapter-1"></a>
+Content for chapter one.
+
+## Chapter 2 <a id="chapter-2"></a>
+Content for chapter one.
+
+## Chapter 3 <a id="chapter-3"></a>
+Content for chapter one.
