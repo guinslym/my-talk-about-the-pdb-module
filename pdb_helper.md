@@ -207,8 +207,57 @@ For example, `<section></section>` should be wrapped as "inline".
 ### undisplay
 ### until
 ### up
-### whatis
 
+
+
+### _up_
+
+> ** Move the current frame count (default one) levels up in thestack trace (to an older frame).**
+*   **Alias(es)**
+    *   u(p) [count]
+*   **Syntax**
+    *   up | u 
+
+``` python
+C:\Users\gmond071\Documents\GitHub\pdb-helper-talk (master)
+λ python script.py
+> c:\users\gmond071\documents\github\pdb-helper-talk\script.py(12)into_account()
+-> m = m/0
+(Pdb) list
+  7
+  8     def into_account(m, age=18):
+  9         a=4
+ 10         b=2
+ 11         import pdb; pdb.set_trace()
+ 12  ->     m = m/0
+ 13         return m
+ 14
+ 15
+ 16
+ 17
+(Pdb) where
+  c:\users\gmond071\documents\github\pdb-helper-talk\script.py(20)<module>()
+-> into_account(3)
+> c:\users\gmond071\documents\github\pdb-helper-talk\script.py(12)into_account()
+-> m = m/0
+(Pdb) up
+> c:\users\gmond071\documents\github\pdb-helper-talk\script.py(20)<module>()
+-> into_account(3)
+(Pdb) list
+ 15
+ 16
+ 17
+ 18
+ 19     if __name__ == "__main__":
+ 20  ->         into_account(3)
+[EOF]
+(Pdb) where
+> c:\users\gmond071\documents\github\pdb-helper-talk\script.py(20)<module>()
+-> into_account(3)
+  c:\users\gmond071\documents\github\pdb-helper-talk\script.py(12)into_account()
+-> m = m/0
+(Pdb)
+``` 
 
 ### _whatis_
 
