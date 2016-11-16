@@ -9,7 +9,8 @@ Content for chapter one.
   * [where](#where)
   * [whatis](#whatis)
 
-## Help <a id="help"></a>
+<a id="help"></a>
+## Help 
 
 '''
     (Pdb) help
@@ -339,7 +340,8 @@ C:\Users\gmond071\Documents\GitHub\pdb-helper-talk (master)
 (Pdb)
 ``` 
 
-### _whatis_  <a id="whatis"></a>
+<a id="whatis"></a>
+### _whatis_  
 
 > **Print the type of the argument.**
 
@@ -370,8 +372,8 @@ C:\Users\gmond071\Documents\GitHub\pdb-helper-talk (master)
 (Pdb)
 ``` 
 
-
-### _w(here)_  <a id="where"></a>
+<a id="where"></a>
+### _w(here)_  
 
 > **Print a stack trace, with the most recent frame at the bottom.
     An arrow indicates the "current frame", which determines the
