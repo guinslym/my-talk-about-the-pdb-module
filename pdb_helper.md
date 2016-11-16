@@ -25,18 +25,12 @@
 ___
 
 
-## _Commands_
+## Commands
 
-> Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue. 
-Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi. 
->> Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor 
-odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.
->>> Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue. 
-Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi. 
 
 For example, `<section></section>` should be wrapped as "inline".
 
-### EOF
+### _EOF_
 
 > **Handles the receipt of EOF as a command.**
 
@@ -52,10 +46,12 @@ For example, `<section></section>` should be wrapped as "inline".
 	bdb.BdbQuit
 ``` 
 
-### a(rgs)
+### _a(rgs)_
 
-1. Print the argument list of the current function.
-2. syntaxt: a | args
+> **Print the argument list of the current function**
+
+* syntaxt: a | args
+
 ``` python
     >>> def into_account(m, age=18):
     ...     a=4
