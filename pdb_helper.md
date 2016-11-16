@@ -1,12 +1,15 @@
 #PDB helper
 
 
-# Table of Contents
-  * [Chapter 1](#chapter-1)
-  * [Chapter 2](#chapter-2)
-  * [Chapter 3](#chapter-3)
+## Chapter 1 <a id="table-of-content"></a>
+Content for chapter one.
 
-## Help
+# Table of Contents <a id="table-of-content"></a>
+  * [help](#help)
+  * [where](#where)
+  * [whatis](#whatis)
+
+## Help <a id="help"></a>
 
 '''
     (Pdb) help
@@ -336,7 +339,7 @@ C:\Users\gmond071\Documents\GitHub\pdb-helper-talk (master)
 (Pdb)
 ``` 
 
-### _whatis_
+### _whatis_  <a id="whatis"></a>
 
 > **Print the type of the argument.**
 
@@ -368,7 +371,7 @@ C:\Users\gmond071\Documents\GitHub\pdb-helper-talk (master)
 ``` 
 
 
-### _w(here)_
+### _w(here)_  <a id="where"></a>
 
 > **Print a stack trace, with the most recent frame at the bottom.
     An arrow indicates the "current frame", which determines the
