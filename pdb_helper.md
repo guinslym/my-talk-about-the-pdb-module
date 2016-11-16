@@ -213,6 +213,8 @@ For example, `<section></section>` should be wrapped as "inline".
 ### _up_
 
 > ** Move the current frame count (default one) levels up in thestack trace (to an older frame).**
+
+
 *   **Alias(es)**
     *   u(p) [count]
 *   **Syntax**
@@ -262,6 +264,8 @@ C:\Users\gmond071\Documents\GitHub\pdb-helper-talk (master)
 ### _whatis_
 
 > **Print the type of the argument.**
+
+
 *   **Syntax**
     *   whatis arg
 
@@ -294,6 +298,8 @@ C:\Users\gmond071\Documents\GitHub\pdb-helper-talk (master)
 > **Print a stack trace, with the most recent frame at the bottom.
     An arrow indicates the "current frame", which determines the
     context of most commands.  'bt' is an alias for this command.**
+
+    
 *   **alias(es)**
     *   where | w | bt
 
