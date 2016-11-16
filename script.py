@@ -12,6 +12,16 @@ def find_if_odd(words):
 		i.update({'answer':'odd'})
 	return words
 
+
+def sum_of_squares(a, b):
+	'''
+	'''
+    a_squared = a^2
+    b_squared = b^2
+    c_squared = a^2 + b^2
+
+    return(c_squared)
+
 if __name__ == "__main__":
     users = [
     		{'name':'guinsly', 'age':35, 'marks': [89,75,92], 'fav_quotes': "like he said 'hello'!"},
