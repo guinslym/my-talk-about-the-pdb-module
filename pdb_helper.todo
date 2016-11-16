@@ -1,16 +1,16 @@
 Script:
-  ☐ import 3 modules
-  ☐ import a file
+  ✔ import 3 modules @done (16-11-15 23:50)
+  ✔ import a file @done (16-11-15 23:51)
   ☐ 2 functions (at least one with arguments)
   ☐ a list comprehension
   ☐ have at least 2 builtins functions
-  ☐ a dictionary
+  ✔ a dictionary @done (16-11-16 00:06)
   ☐ a class
   ☐ a for loop
 
 Purpose:
-  ☐ Loop throught meetup user names
-  ☐ Find which ones have a odd or even numbers of letters
+  ✔ Loop throught meetup user names @done (16-11-16 00:01)
+  ✔ Find which ones have a odd or even numbers of letters @done (16-11-16 00:03)
   ☐ Create a dictionnary contains their username and their last login date
   ☐ Have a class name Address for their address
   ☐ have a for loop that acts like a Time.sleep(1)
