@@ -18,3 +18,7 @@ def into_account(m, age=18):
 
 import pdb
 pdb.runcall(into_account, 7)
+
+
+if __name__ == "__main__":
+    print('hello')

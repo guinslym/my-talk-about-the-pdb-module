@@ -9,12 +9,12 @@
     Documented commands (type help <topic>):
     ========================================
     EOF    c          d        h         list      q        rv       undisplay
-    a      cl         debug    help      ll        quit     s        unt      
-    alias  clear      disable  ignore    longlist  r        source   until    
-    args   commands   display  interact  n         restart  step     up       
-    b      condition  down     j         next      return   tbreak   w        
-    break  cont       enable   jump      p         retval   u        whatis   
-    bt     continue   exit     l         pp        run      unalias  where    
+    a      cl         debug    help      ll        quit     s        unt
+    alias  clear      disable  ignore    longlist  r        source   until
+    args   commands   display  interact  n         restart  step     up
+    b      condition  down     j         next      return   tbreak   w
+    break  cont       enable   jump      p         retval   u        whatis
+    bt     continue   exit     l         pp        run      unalias  where
 
     Miscellaneous help topics:
 ==========================
@@ -45,10 +45,10 @@
 '''
     >>> def into_account(m, age=18):
     ...     a=4
-    ...     b=c 
+    ...     b=c
     ...     m = m/0
-    ...     return 
-    ... 
+    ...     return
+    ...
     >>> import pdb
     >>> pdb.runcall(into_account, 4)
     > <stdin>(2)into_account()
@@ -73,10 +73,10 @@
 '''
     >>> def into_account(m, age=18):
     ...     a=4
-    ...     b=c 
+    ...     b=c
     ...     m = m/0
-    ...     return 
-    ... 
+    ...     return
+    ...
     >>> import pdb
     >>> pdb.runcall(into_account, 4)
     (Pdb) w
@@ -87,7 +87,7 @@
       /usr/lib/python3.5/bdb.py(465)runcall()
     -> res = func(*args, **kwds)
     > <stdin>(2)into_account()
-    (Pdb) 
+    (Pdb)
 '''
 
 ### c(ont(inue))
@@ -116,7 +116,7 @@
 1. Enter a recursive debugger that steps through the code
         argument (which is an arbitrary expression or statement to be
         executed in the current environment).
-2. 
+2.
 
 
 ### disable
@@ -129,7 +129,7 @@
 1. Move the current frame count (default one) levels down in the
         stack trace (to a newer frame).
 2. down | d
- 
+
 
 ### enable
 
@@ -144,15 +144,15 @@
 '''
     >>> quit()
     guinslym@guinslym-ER883AA-ABA-m7470n:~$ python
-    Python 3.5.2 (default, Sep 10 2016, 08:21:44) 
+    Python 3.5.2 (default, Sep 10 2016, 08:21:44)
     [GCC 5.4.0 20160609] on linux
     Type "help", "copyright", "credits" or "license" for more information.
     >>> def into_account(m, age=18):
     ...     a=4
-    ...     b=c 
+    ...     b=c
     ...     m = m/0
     ...     return m
-    ... 
+    ...
     >>> import pdb
     >>> pdb.runcall(into_account, 7)
     > <stdin>(2)into_account()
@@ -161,7 +161,7 @@
     Traceback (most recent call last):
       File "<stdin>", line 1, in <module>
     NameError: name 'q' is not defined
-    >>> 
+    >>>
 '''
 
 
