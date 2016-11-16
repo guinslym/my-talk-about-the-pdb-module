@@ -184,6 +184,8 @@ For example, `<section></section>` should be wrapped as "inline".
 
 2. help | h
 
+
+
 ### ignore
 
 ### interact
@@ -207,6 +209,39 @@ For example, `<section></section>` should be wrapped as "inline".
 ### up
 ### whatis
 ### where
+
+### _w(here)_
+
+> **Print a stack trace, with the most recent frame at the bottom.
+    An arrow indicates the "current frame", which determines the
+    context of most commands.  'bt' is an alias for this command.**
+
+*   where | w | bt
+
+``` python
+    λ python script.py
+    > c:\users\gmond071\documents\github\pdb-helper-talk\script.py(12)into_account()
+    -> m = m/0
+    (Pdb) list
+      7
+      8     def into_account(m, age=18):
+      9         a=4
+     10         b=2
+     11         import pdb; pdb.set_trace()
+     12  ->     m = m/0
+     13         return m
+     14
+     15
+     16
+     17
+    (Pdb) where
+      c:\users\gmond071\documents\github\pdb-helper-talk\script.py(20)<module>()
+    -> into_account(3)
+    > c:\users\gmond071\documents\github\pdb-helper-talk\script.py(12)into_account()
+    -> m = m/0
+    (Pdb)
+``` 
+
 ### pdb
 ### exec
 
