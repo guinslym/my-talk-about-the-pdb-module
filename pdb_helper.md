@@ -9,10 +9,10 @@ Content for chapter one.
 
 |        |             |        |             |
 | ------ | ----------- | ------ | ----------- |
-| [EOF](#eof)             | [enable](#enable)     | [restart](#restart)     | [pdb](#pdb)           |
+| [EOF](#eof)             | [enable](#enable)     | [restart](#restart)     | [where](#where)       |
 | [alias](#alias)         | [exit](#exit)         | [return](#return)       | [exec](#exec)         |
-| [args](#args)           | [help](#help)         | [retval](#retval)       |                       |
-| [break](#break)         | [ignore](#ignore)     | [run](#run)             |                       |
+| [args](#args)           | [help](#help)         | [retval](#retval)       | [pdb](#pdb)           |
+| [break](#break)         | [ignore](#ignore)     | [run](#run)             | [exec](#exec)         |
 | [clear](#clear)         | [interact](#interact) | [source](#source)       |                       |
 | [commands](#commands)   | [jump](#jump)         | [step](#step)           |                       |
 | [condition](#condition) | [list](#list)         | [tbreak](#tbreak)       |                       |
@@ -399,7 +399,7 @@ C:\Users\gmond071\Documents\GitHub\pdb-helper-talk (master)
 ```
 
 <a id="whatis"></a>
-### _whatis_  
+### _whatis_
 
 > **Print the type of the argument.**
 
@@ -431,7 +431,7 @@ C:\Users\gmond071\Documents\GitHub\pdb-helper-talk (master)
 ```
 [back to table of content](#table-of-content)
 <a id="where"></a>
-### _w(here)_  
+### _w(here)_
 
 > **Print a stack trace, with the most recent frame at the bottom.
     An arrow indicates the "current frame", which determines the

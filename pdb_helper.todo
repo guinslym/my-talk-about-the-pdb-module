@@ -22,3 +22,46 @@ Javascript Syntax Highlighting to try:
   ☐ https://craig.is/making/rainbows
   ☐ https://github.com/syntaxhighlighter/syntaxhighlighter
   ☐ https://github.com/isagalaev/highlight.js
+
+
+
+# Getting started
+
+
+  ☐ EOF
+  ☐ alias
+  ☐ args
+  ☐ break
+  ☐ clear
+  ☐ commands
+  ☐ condition
+  ☐ continue
+  ☐ debug
+  ☐ disable
+  ☐ display
+  ☐ down
+  ☐ enable
+  ☐ exit
+  ☐ help
+  ☐ ignore
+  ☐ interact
+  ☐ jump
+  ☐ list
+  ☐ longlist
+  ☐ next
+  ☐ p
+  ☐ pp
+  ☐ quit
+  ☐ restart
+  ☐ return
+  ☐ retval
+  ☐ run
+  ☐ source
+  ☐ step
+  ☐ tbreak
+  ☐ unalias
+  ☐ undisplay
+  ☐ until
+  ☐ up
+  ☐ whatis
+  ☐ where
