@@ -10,7 +10,7 @@ Content for chapter one.
   * [whatis](#whatis)
 
 <a id="help"></a>
-## Help 
+## Help
 
 '''
     (Pdb) help
@@ -39,6 +39,7 @@ ___
 
 For example, `<section></section>` should be wrapped as "inline".
 
+<a id="eof"></a>
 ### _EOF_
 
 > **Handles the receipt of EOF as a command.**
@@ -53,8 +54,9 @@ For example, `<section></section>` should be wrapped as "inline".
 	  File "/usr/lib/python3.5/bdb.py", line 96, in dispatch_return
 	    if self.quitting: raise BdbQuit
 	bdb.BdbQuit
-``` 
+```
 
+<a id="args"></a>
 ### _a(rgs)_
 
 > **Print the argument list of the current function**
@@ -77,10 +79,11 @@ For example, `<section></section>` should be wrapped as "inline".
     (Pdb) args
     m = 4
     age = 18
-``` 
-
+```
+<a id="alias"></a>
 ### alias
 
+<a id="break"></a>
 ### break
 
 ###
@@ -107,13 +110,13 @@ For example, `<section></section>` should be wrapped as "inline".
     -> res = func(*args, **kwds)
     > <stdin>(2)into_account()
     (Pdb)
-``` 
-
+```
+<a id="continue"></a>
 ### c(ont(inue))
 
 1. Continue execution, only stop when a breakpoint is encountered.
 
-
+<a id="clear"></a>
 ### cl(ear)
 
 1. With a space separated list of breakpoint numbers, clear
@@ -121,8 +124,10 @@ For example, `<section></section>` should be wrapped as "inline".
         first ask confirmation).  With a filename:lineno argument,
         clear all breaks at that line in that file.
 
+<a id="commands"></a>
 ### commands
 
+<a id="condition"></a>
 ### condition
 
 1. Set a new condition for the breakpoint, an expression which
@@ -130,6 +135,8 @@ For example, `<section></section>` should be wrapped as "inline".
         condition is absent, any existing condition is removed; i.e.,
         the breakpoint is made unconditional.
 
+
+<a id="code"></a>
 ### code
 
 1. Enter a recursive debugger that steps through the code
@@ -137,11 +144,13 @@ For example, `<section></section>` should be wrapped as "inline".
         executed in the current environment).
 2.
 
-
+<a id="disable"></a>
 ### disable
 
+<a id="display"></a>
 ### display
 
+<a id="down"></a>
 ### _down_
 
 > ** Move the current frame count (default one) levels down in the stack trace (to a newer frame).**
@@ -150,9 +159,9 @@ For example, `<section></section>` should be wrapped as "inline".
 *   **Alias(es)**
     *   d(own) [count]
 *   **Syntax**
-    *   down | d 
+    *   down | d
 *   **Oposite commands**
-    *   up | u 
+    *   up | u
 
 ``` python
 C:\Users\gmond071\Documents\GitHub\pdb-helper-talk (master)
@@ -210,7 +219,7 @@ C:\Users\gmond071\Documents\GitHub\pdb-helper-talk (master)
  16
  17
 (Pdb)
-``` 
+```
 
 
 1. Move the current frame count (default one) levels down in the
@@ -218,11 +227,13 @@ C:\Users\gmond071\Documents\GitHub\pdb-helper-talk (master)
 2. down | d
 
 
+<a id="enable"></a>
 ### enable
 
 1. Enables the breakpoints given as a space separated list of
         breakpoint numbers.
 
+<a id="exit"></a>
 ### exit
 
 1. Quit from the debugger. The program being executed is aborted.
@@ -249,9 +260,9 @@ C:\Users\gmond071\Documents\GitHub\pdb-helper-talk (master)
       File "<stdin>", line 1, in <module>
     NameError: name 'q' is not defined
     >>>
-``` 
+```
 
-
+<a id="help"></a>
 ### help
 
 1. Without argument, print the list of available commands.
@@ -262,33 +273,75 @@ C:\Users\gmond071\Documents\GitHub\pdb-helper-talk (master)
 2. help | h
 
 
+<a id="ignore"></a>
+### _ignore_
 
-### ignore
+<a id="interact"></a>
+### _interact_
 
-### interact
+<a id="jump"></a>
+### _jump_
 
-### jump
-### list
+<a id="list"></a>
+### _list_
+
+<a id="longlist"></a>
 ### longlist
+### _up_
+
+<a id="next"></a>
 ### next
+### _up_
+
+<a id="pp"></a>
 ### pp
+### _up_
+
+<a id="quit"></a>
 ### quit
+### _up_
+
+<a id="restart"></a>
 ### restart
+### _up_
+
+<a id="return"></a>
 ### return
+### _up_
+
+<a id="retval"></a>
 ### retval
+### _up_
+
+<a id="run"></a>
 ### run
+### _up_
+
+<a id="source"></a>
 ### source
+### _up_
+
+<a id="step"></a>
 ### step
+### _up_
+
+<a id="tbreak"></a>
 ### tbreak
+### _up_
+
+<a id="unalias"></a>
 ### unalias
+### _up_
+
+<a id="undisplay"></a>
 ### undisplay
+### _up_
+
+<a id="until"></a>
 ### until
+### _up_
 
-
-### up
-
-
-
+<a id="up"></a>
 ### _up_
 
 > ** Move the current frame count (default one) levels up in thestack trace (to an older frame).**
@@ -297,7 +350,7 @@ C:\Users\gmond071\Documents\GitHub\pdb-helper-talk (master)
 *   **Alias(es)**
     *   u(p) [count]
 *   **Syntax**
-    *   up | u 
+    *   up | u
 
 ``` python
 C:\Users\gmond071\Documents\GitHub\pdb-helper-talk (master)
@@ -338,7 +391,7 @@ C:\Users\gmond071\Documents\GitHub\pdb-helper-talk (master)
   c:\users\gmond071\documents\github\pdb-helper-talk\script.py(12)into_account()
 -> m = m/0
 (Pdb)
-``` 
+```
 
 <a id="whatis"></a>
 ### _whatis_  
@@ -370,7 +423,7 @@ C:\Users\gmond071\Documents\GitHub\pdb-helper-talk (master)
 (Pdb) whatis b
 <class 'int'>
 (Pdb)
-``` 
+```
 
 <a id="where"></a>
 ### _w(here)_  
@@ -405,7 +458,7 @@ C:\Users\gmond071\Documents\GitHub\pdb-helper-talk (master)
     > c:\users\gmond071\documents\github\pdb-helper-talk\script.py(12)into_account()
     -> m = m/0
     (Pdb)
-``` 
+```
 
 ### pdb
 ### exec
