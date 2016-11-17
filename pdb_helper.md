@@ -23,48 +23,6 @@ Content for chapter one.
 | [down](#down)           | [quit](#quit)         | [whatis](#whatis)       |                       |
 
 
-
-
-  * [EOF](#eof)
-  * [alias](#alias)
-  * [args](#args)
-  * [break](#break)
-  * [clear](#clear)
-  * [commands](#commands)
-  * [condition](#condition)
-  * [continue](#continue)
-  * [debug](#debug)
-  * [disable](#disable)
-  * [display](#display)
-  * [down](#down)
-  * [enable](#enable)
-  * [exit](#exit)
-  * [help](#help)
-  * [ignore](#ignore)
-  * [interact](#interact)
-  * [jump](#jump)
-  * [list](#list)
-  * [longlist](#longlist)
-  * [next](#next)
-  * [p](#p)
-  * [pp](#pp)
-  * [quit](#quit)
-  * [restart](#restart)
-  * [return](#return)
-  * [retval](#retval)
-  * [run](#run)
-  * [source](#source)
-  * [step](#step)
-  * [tbreak](#tbreak)
-  * [unalias](#unalias)
-  * [undisplay](#undisplay)
-  * [until](#until)
-  * [up](#up)
-  * [whatis](#whatis)
-  * [where](#where)
-  * [pdb](#pdb)
-  * [exec](#exec)
-
 [back to table of content](#table-of-content)
 <a id="help"></a>
 ### _help_
