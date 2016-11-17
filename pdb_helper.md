@@ -65,23 +65,6 @@ Content for chapter one.
   * [pdb](#pdb)
   * [exec](#exec)
 
-  | Option | Description |
-  | ------ | ----------- |
-  | [restart](#restart)     | [pdb](#pdb)           |
-  | [return](#return)       | [exec](#exec)         |
-  | [retval](#retval)       | [help](#help)         |
-  | [run](#run)             | [ignore](#ignore)     |
-  | [source](#source)       | [interact](#interact) |
-  | [step](#step)           | [jump](#jump)         |
-  | [tbreak](#tbreak)       | [list](#list)         |
-  | [unalias](#unalias)     | [longlist](#longlist) |
-  | [undisplay](#undisplay) | [next](#next)         |
-  | [until](#until)         | [p](#p)               |
-  | [up](#up)               | [pp](#pp)             |
-  | [whatis](#whatis)       | [quit](#quit)         |
-
-
-
 <a id="help"></a>
 ### _help_
 
