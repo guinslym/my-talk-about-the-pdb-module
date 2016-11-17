@@ -48,7 +48,8 @@ Content for chapter one.
   * [exec](#exec)
 
 <a id="help"></a>
-## Help
+### _help_
+
 
 '''
     (Pdb) help
@@ -64,15 +65,15 @@ Content for chapter one.
     bt     continue   exit     l         pp        run      unalias  where
 
     Miscellaneous help topics:
-==========================
+    ==========================
 
 '''
 
 
 ___
 
-
-## Commands
+<a id="commands"></a>
+### _commands_
 
 
 For example, `<section></section>` should be wrapped as "inline".
