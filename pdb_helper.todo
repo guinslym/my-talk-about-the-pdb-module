@@ -26,9 +26,16 @@ Javascript Syntax Highlighting to try:
 
 
 # Getting started
-
-
   ☐ EOF
+  ☐ exit
+  ☐ help
+  ☐ list
+  ☐ longlist
+  ☐ quit
+  ☐ where
+
+
+  ✔ EOF @done(2016-11-17 18:22)
   ☐ alias
   ☐ args
   ☐ break
@@ -41,17 +48,17 @@ Javascript Syntax Highlighting to try:
   ☐ display
   ☐ down
   ☐ enable
-  ☐ exit
-  ☐ help
+  ✔ exit @done(2016-11-17 18:22)
+  ✔ help @done(2016-11-17 18:22)
   ☐ ignore
   ☐ interact
   ☐ jump
-  ☐ list
-  ☐ longlist
+  ✔ list @done(2016-11-17 18:22)
+  ✔ longlist @done(2016-11-17 18:22)
   ☐ next
   ☐ p
   ☐ pp
-  ☐ quit
+  ✔ quit @done(2016-11-17 18:22)
   ☐ restart
   ☐ return
   ☐ retval
@@ -64,4 +71,4 @@ Javascript Syntax Highlighting to try:
   ☐ until
   ☐ up
   ☐ whatis
-  ☐ where
+  ✔ where @done(2016-11-17 18:22)
