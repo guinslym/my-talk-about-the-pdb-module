@@ -7,15 +7,15 @@ Content for chapter one.
 <a id="table-of-content"></a>
 # Table of Contents
 
-| [help](#help)   | data |
-| [where](#where) | data |
-| [EOF](#eof)    | data |
-| [alias](#alias)    | data |
-| [args](#args)   | data |
-| [break](#break)  | data |
-| [clear](#clear)   | data |
+| [help](#help)           | data |
+| [where](#where)         | data |
+| [EOF](#eof)             | data |
+| [alias](#alias)         | data |
+| [args](#args)           | data |
+| [break](#break)         | data |
+| [clear](#clear)         | data |
 | [commands](#commands)   | data |
-| [condition](#condition)  | data |
+| [condition](#condition) | data |
 
 
   * [help](#help)
