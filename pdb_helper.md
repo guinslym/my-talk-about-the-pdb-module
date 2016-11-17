@@ -9,18 +9,20 @@ Content for chapter one.
 
 | Option | Description |
 | ------ | ----------- |
-| [EOF](#eof)             | [enable](#enable)     |
-| [alias](#alias)         | [exit](#exit)         |
-| [args](#args)           | [help](#help)         |
-| [break](#break)         | [ignore](#ignore)     |
-| [clear](#clear)         | [interact](#interact) |
-| [commands](#commands)   | [jump](#jump)         |
-| [condition](#condition) | [list](#list)         |
-| [continue](#continue)   | [longlist](#longlist) |
-| [debug](#debug)         | [next](#next)         |
-| [disable](#disable)     | [p](#p)               |
-| [display](#display)     | [pp](#pp)             |
-| [down](#down)           | [quit](#quit)         |
+| [EOF](#eof)             | [enable](#enable)     | [restart](#restart)     | [pdb](#pdb)           |
+| [alias](#alias)         | [exit](#exit)         | [return](#return)       | [exec](#exec)         |
+| [args](#args)           | [help](#help)         | [retval](#retval)       |                       |
+| [break](#break)         | [ignore](#ignore)     | [run](#run)             |                       |
+| [clear](#clear)         | [interact](#interact) | [source](#source)       |                       |
+| [commands](#commands)   | [jump](#jump)         | [step](#step)           |                       |
+| [condition](#condition) | [list](#list)         | [tbreak](#tbreak)       |                       |
+| [continue](#continue)   | [longlist](#longlist) | [unalias](#unalias)     |                       |
+| [debug](#debug)         | [next](#next)         | [undisplay](#undisplay) |                       |
+| [disable](#disable)     | [p](#p)               | [until](#until)         |                       |
+| [display](#display)     | [pp](#pp)             | [up](#up)               |                       |
+| [down](#down)           | [quit](#quit)         | [whatis](#whatis)       |                       |
+
+
 
 
   * [EOF](#eof)
@@ -62,6 +64,23 @@ Content for chapter one.
   * [where](#where)
   * [pdb](#pdb)
   * [exec](#exec)
+
+  | Option | Description |
+  | ------ | ----------- |
+  | [restart](#restart)     | [pdb](#pdb)           |
+  | [return](#return)       | [exec](#exec)         |
+  | [retval](#retval)       | [help](#help)         |
+  | [run](#run)             | [ignore](#ignore)     |
+  | [source](#source)       | [interact](#interact) |
+  | [step](#step)           | [jump](#jump)         |
+  | [tbreak](#tbreak)       | [list](#list)         |
+  | [unalias](#unalias)     | [longlist](#longlist) |
+  | [undisplay](#undisplay) | [next](#next)         |
+  | [until](#until)         | [p](#p)               |
+  | [up](#up)               | [pp](#pp)             |
+  | [whatis](#whatis)       | [quit](#quit)         |
+
+
 
 <a id="help"></a>
 ### _help_
