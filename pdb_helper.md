@@ -4,7 +4,20 @@
 ## Chapter 1 <a id="table-of-content"></a>
 Content for chapter one.
 
-# Table of Contents <a id="table-of-content"></a>
+<a id="table-of-content"></a>
+# Table of Contents
+
+| [help](#help)   | data |
+| [where](#where) | data |
+| [EOF](#eof)    | data |
+| [alias](#alias)    | data |
+| [args](#args)   | data |
+| [break](#break)  | data |
+| [clear](#clear)   | data |
+| [commands](#commands)   | data |
+| [condition](#condition)  | data |
+
+
   * [help](#help)
   * [where](#where)
   * [EOF](#eof)
