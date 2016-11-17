@@ -7,6 +7,8 @@ Content for chapter one.
 <a id="table-of-content"></a>
 # Table of Contents
 
+| Option | Description |
+| ------ | ----------- |
 | [help](#help)           | data |
 | [where](#where)         | data |
 | [EOF](#eof)             | data |
