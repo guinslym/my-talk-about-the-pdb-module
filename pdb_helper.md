@@ -286,60 +286,46 @@ C:\Users\gmond071\Documents\GitHub\pdb-helper-talk (master)
 ### _list_
 
 <a id="longlist"></a>
-### longlist
-### _up_
+### _longlist_
 
 <a id="next"></a>
-### next
-### _up_
+### _next_
 
 <a id="pp"></a>
-### pp
-### _up_
+### _pp_
 
 <a id="quit"></a>
-### quit
-### _up_
+### _quit_
 
 <a id="restart"></a>
-### restart
-### _up_
+### _restart_
 
 <a id="return"></a>
-### return
-### _up_
+### _return_
 
 <a id="retval"></a>
-### retval
-### _up_
+### _retval_
 
 <a id="run"></a>
-### run
-### _up_
+### _run_
 
 <a id="source"></a>
-### source
-### _up_
+### _source_
 
 <a id="step"></a>
-### step
-### _up_
+### _step_
 
 <a id="tbreak"></a>
-### tbreak
-### _up_
+### _tbreak_
 
 <a id="unalias"></a>
-### unalias
-### _up_
+### _unalias_
 
 <a id="undisplay"></a>
-### undisplay
-### _up_
+### _undisplay_
 
 <a id="until"></a>
-### until
-### _up_
+### _until_
 
 <a id="up"></a>
 ### _up_
