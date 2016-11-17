@@ -9,19 +9,20 @@ Content for chapter one.
 
 | Option | Description |
 | ------ | ----------- |
-| [help](#help)           | data |
-| [where](#where)         | data |
-| [EOF](#eof)             | data |
-| [alias](#alias)         | data |
-| [args](#args)           | data |
-| [break](#break)         | data |
-| [clear](#clear)         | data |
-| [commands](#commands)   | data |
-| [condition](#condition) | data |
+| [EOF](#eof)             | [enable](#enable)     |
+| [alias](#alias)         | [exit](#exit)         |
+| [args](#args)           | [help](#help)         |
+| [break](#break)         | [ignore](#ignore)     |
+| [clear](#clear)         | [interact](#interact) |
+| [commands](#commands)   | [jump](#jump)         |
+| [condition](#condition) | [list](#list)         |
+| [continue](#continue)   | [longlist](#longlist) |
+| [debug](#debug)         | [next](#next)         |
+| [disable](#disable)     | [p](#p)               |
+| [display](#display)     | [pp](#pp)             |
+| [down](#down)           | [quit](#quit)         |
 
 
-  * [help](#help)
-  * [where](#where)
   * [EOF](#eof)
   * [alias](#alias)
   * [args](#args)
