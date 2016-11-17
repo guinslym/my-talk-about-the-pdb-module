@@ -7,8 +7,8 @@ Content for chapter one.
 <a id="table-of-content"></a>
 # Table of Contents
 
-| Option | Description |
-| ------ | ----------- |
+| Option | Description | Option | Description |
+| ------ | ----------- | ------ | ----------- |
 | [EOF](#eof)             | [enable](#enable)     | [restart](#restart)     | [pdb](#pdb)           |
 | [alias](#alias)         | [exit](#exit)         | [return](#return)       | [exec](#exec)         |
 | [args](#args)           | [help](#help)         | [retval](#retval)       |                       |
