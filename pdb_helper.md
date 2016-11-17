@@ -120,12 +120,13 @@ For example, `<section></section>` should be wrapped as "inline".
     age = 18
 ```
 <a id="alias"></a>
-### alias
+### _alias_
 
 <a id="break"></a>
-### break
+### _break_
 
-###
+<a id="where"></a>
+### _where_
 
 1. Print a stack trace, with the most recent frame at the bottom.
         An arrow indicates the "current frame", which determines the
@@ -150,6 +151,8 @@ For example, `<section></section>` should be wrapped as "inline".
     > <stdin>(2)into_account()
     (Pdb)
 ```
+
+
 <a id="continue"></a>
 ### c(ont(inue))
 
