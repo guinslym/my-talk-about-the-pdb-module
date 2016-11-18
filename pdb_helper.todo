@@ -25,54 +25,51 @@ Javascript Syntax Highlighting to try:
 
 
 
-Getting started:
+Where am I? (2min):
   ☐ list
   ☐ longlist
   ☐ where
   ☐ help
   ☐ EOF
   ☐ quit
-  ☐ exit
 
-Display value:
-  ☐ args
+Display value (2 min):
   ☐ p
   ☐ pp
-  ☐ retval
   ☐ whatis
+  ☐ args
+  ☐ retval
   ☐ source
 
-Navigation:
-  ☐ continue
+Navigation (3 min):
   ☐ next
-  ☐ restart
-  ☐ return
-  ☐ step
-  ☐ run
   ☐ until
+  ☐ step
+  ☐ continue
+  ☐ return
+  ☐ restart
 
-Breakpoints:
+Breakpoints (5 min):
   ☐ break
-  ☐ clear
-  ☐ condition
+  ☐ where
   ☐ up
   ☐ down
+  ☐ condition
   ☐ disable
   ☐ enable
   ☐ ignore
-  ☐ jump
+  ☐ clear
   ☐ tbreak
+  ☐ jump
   ☐ display
   ☐ undisplay
-  ☐ where
 
-
-Shortcuts and advanced commands:
+Shortcuts and advanced commands (5 min):
+  ☐ interact
   ☐ alias
   ☐ unalias
   ☐ commands
   ☐ debug
-  ☐ interact
 
 
   ✔ EOF @done(2016-11-17 18:22)
