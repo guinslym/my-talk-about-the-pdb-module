@@ -25,50 +25,90 @@ Javascript Syntax Highlighting to try:
 
 
 
-# Getting started
-  ☐ EOF
-  ☐ exit
-  ☐ help
+Getting started:
   ☐ list
   ☐ longlist
+  ☐ where
+  ☐ help
+  ☐ EOF
   ☐ quit
+  ☐ exit
+
+Display value:
+  ☐ args
+  ☐ p
+  ☐ pp
+  ☐ retval
+  ☐ whatis
+  ☐ source
+
+Navigation:
+  ☐ continue
+  ☐ next
+  ☐ restart
+  ☐ return
+  ☐ step
+  ☐ run
+  ☐ until
+
+Breakpoints:
+  ☐ break
+  ☐ clear
+  ☐ condition
+  ☐ up
+  ☐ down
+  ☐ disable
+  ☐ enable
+  ☐ ignore
+  ☐ jump
+  ☐ tbreak
+  ☐ display
+  ☐ undisplay
   ☐ where
 
 
-  ✔ EOF @done(2016-11-17 18:22)
+Shortcuts and advanced commands:
   ☐ alias
-  ☐ args
-  ☐ break
-  ☐ clear
+  ☐ unalias
   ☐ commands
-  ☐ condition
-  ☐ continue
   ☐ debug
-  ☐ disable
-  ☐ display
-  ☐ down
-  ☐ enable
+  ☐ interact
+
+
+  ✔ EOF @done(2016-11-17 18:22)
+  ✔ alias @done(2016-11-17 18:24)
+  ✔ args @done(2016-11-17 18:24)
+  ✔ break @done(2016-11-17 18:31)
+  ✔ clear @done(2016-11-17 18:31)
+  ✔ commands @done(2016-11-17 18:37)
+  ✔ condition @done(2016-11-17 18:31)
+  ✔ continue @done(2016-11-17 18:30)
+  ✔ debug @done(2016-11-17 18:37)
+  ✔ disable @done(2016-11-17 18:31)
+  ✔ display @done(2016-11-17 18:38)
+  ✔ down @done(2016-11-17 18:31)
+  ✔ enable @done(2016-11-17 18:31)
   ✔ exit @done(2016-11-17 18:22)
   ✔ help @done(2016-11-17 18:22)
-  ☐ ignore
-  ☐ interact
-  ☐ jump
+  ✔ ignore @done(2016-11-17 18:31)
+  ✔ interact @done(2016-11-17 18:37)
+  ✔ jump @done(2016-11-17 18:31)
   ✔ list @done(2016-11-17 18:22)
   ✔ longlist @done(2016-11-17 18:22)
-  ☐ next
-  ☐ p
-  ☐ pp
+  ✔ next @done(2016-11-17 18:30)
+  ✔ p @done(2016-11-17 18:24)
+  ✔ pp @done(2016-11-17 18:24)
   ✔ quit @done(2016-11-17 18:22)
-  ☐ restart
-  ☐ return
-  ☐ retval
-  ☐ run
-  ☐ source
-  ☐ step
-  ☐ tbreak
-  ☐ unalias
-  ☐ undisplay
-  ☐ until
-  ☐ up
-  ☐ whatis
+  ✔ restart @done(2016-11-17 18:30)
+  ✔ return @done(2016-11-17 18:30)
+  ✔ retval @done(2016-11-17 18:26)
+  ✔ run @done(2016-11-17 18:33)
+  ✔ source @done(2016-11-17 18:33)
+  ✔ step @done(2016-11-17 18:30)
+  ✔ tbreak @done(2016-11-17 18:35)
+  ✔ unalias @done(2016-11-17 18:28)
+  ✔ undisplay @done(2016-11-17 18:38)
+  ✔ until @done(2016-11-17 18:33)
+  ✔ up @done(2016-11-17 18:31)
+  ✔ whatis @done(2016-11-17 18:32)
   ✔ where @done(2016-11-17 18:22)
