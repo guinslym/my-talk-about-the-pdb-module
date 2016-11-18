@@ -1,12 +1,12 @@
 import shlex
 import random
 import statistics
-from my_other_script import student_list
+from my_other_script import students_list
 
 def divide(denominator):
     return 10 / denominator
 
-def calling_the_divide_function(value=4, other_val=student):
+def calling_the_divide_function(value=4, other_val=students_list):
     val = []
     for i in value:
         a = divide(i)
