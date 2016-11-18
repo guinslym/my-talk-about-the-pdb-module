@@ -3,9 +3,8 @@ import random
 import statistics
 import my_other_script
 
-def find_
 
-def into_account(m, age=18):
+def first_frame(m, age=18):
     a=4
     b=2
     import pdb; pdb.set_trace()
