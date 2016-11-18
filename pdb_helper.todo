@@ -145,6 +145,25 @@ Display value (2 min):
   ✔ args @done (16-11-17 23:48)
   ☐ retval
       ☐ Couldn't create an exemple.. I need to create a function that will return something before calling the function that I'm in right now 
+        λ python script.py
+        > c:\users\gmond071\documents\github\pdb-helper-talk\script.py(7)divide()
+        -> return 10 / denominator
+        (Pdb) l
+          2     import sys
+          3     from my_other_script import students_list
+          4
+          5     def divide(denominator=2, other_val=students_list):
+          6         import pdb; pdb.set_trace()
+          7  ->     return 10 / denominator
+          8
+          9     def calling_the_divide_function(value=4):
+         10         val = []
+         11         for i in value:
+         12             a = divide(i)
+        (Pdb) retval
+        *** Not yet returned!
+        (Pdb)
+
   ☐ source
       ✔ Don't know why source shlex gives me an error @done (16-11-17 23:23)
       (Pdb) source shlex
@@ -228,11 +247,14 @@ Display value (2 min):
     -> return codecs.charmap_encode(input,self.errors,encoding_map)[0]
 
 Navigation (3 min):
-  ☐ next
-  ☐ until
+  ✔ next @done (16-11-17 23:56)
+  ✔ until @done (16-11-17 23:56)
   ☐ step
+    ☐ On Windows it's seems that this is not clear
   ☐ continue
+    ☐ on Windows it also quit the pdb and the repl
   ☐ return
+    ☐ Doesn't works well on windows in send you in Anaconda
   ☐ restart
 
 Breakpoints (5 min):
