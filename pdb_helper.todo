@@ -139,11 +139,12 @@ Where am I? (2min):
 
 (add pdb.set_trace())
 Display value (2 min):
-  ☐ p
-  ☐ pp
-  ☐ whatis
-  ☐ args
+  ✔ p @done (16-11-17 23:48)
+  ✔ pp @done (16-11-17 23:48)
+  ✔ whatis @done (16-11-17 23:48)
+  ✔ args @done (16-11-17 23:48)
   ☐ retval
+      ☐ Couldn't create an exemple.. I need to create a function that will return something before calling the function that I'm in right now 
   ☐ source
       ✔ Don't know why source shlex gives me an error @done (16-11-17 23:23)
       (Pdb) source shlex
