@@ -1,6 +1,5 @@
 import shlex
-import random
-import statistics
+import sys
 from my_other_script import students_list
 
 def divide(denominator=2):

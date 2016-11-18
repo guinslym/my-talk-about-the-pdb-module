@@ -109,3 +109,153 @@ Shortcuts and advanced commands (5 min):
   ✔ up @done(2016-11-17 18:31)
   ✔ whatis @done(2016-11-17 18:32)
   ✔ where @done(2016-11-17 18:22)
+
+
+Verification on Windows:
+Where am I? (2min):
+  ✔ list @done (16-11-17 23:19)
+  ✔ longlist @done (16-11-17 23:19)
+  ☐ where
+      ☐ Don't know why that my stack trace is so long
+     (Pdb) w
+      c:\users\gmond071\appdata\local\continuum\anaconda3\lib\pdb.py(1661)main()
+    -> pdb._runscript(mainpyfile)
+      c:\users\gmond071\appdata\local\continuum\anaconda3\lib\pdb.py(1542)_runscript()
+    -> self.run(statement)
+      c:\users\gmond071\appdata\local\continuum\anaconda3\lib\bdb.py(431)run()
+    -> exec(cmd, globals, locals)
+      <string>(1)<module>()
+      c:\users\gmond071\documents\github\pdb-helper-talk\script.py(1)<module>()
+    -> import shlex
+      c:\users\gmond071\documents\github\pdb-helper-talk\script.py(19)create_a_list_of_numbers()
+    -> calling_the_divide_function(value)
+      c:\users\gmond071\documents\github\pdb-helper-talk\script.py(11)calling_the_divide_function()
+    -> a = divide(i)
+    > c:\users\gmond071\documents\github\pdb-helper-talk\script.py(6)divide()
+    -> return 10 / denominator
+  ✔ help @done (16-11-17 23:19)
+  ✔ EOF @done (16-11-17 23:19)
+  ✔ quit @done (16-11-17 23:19)
+
+(add pdb.set_trace())
+Display value (2 min):
+  ☐ p
+  ☐ pp
+  ☐ whatis
+  ☐ args
+  ☐ retval
+  ☐ source
+      ✔ Don't know why source shlex gives me an error @done (16-11-17 23:23)
+      (Pdb) source shlex
+      1     """A lexical analyzer class for simple shell-like syntaxes."""
+      2
+      3     # Module and documentation by Eric S. Raymond, 21 Dec 1998
+      4     # Input stacking and error message cleanup added by ESR, March 2000
+      5     # push_source() and pop_source() made explicit by ESR, January 2001.
+      6     # Posix compliance, split(), string arguments, and
+      7     # iterator interface by Gustavo Niemeyer, April 2003.
+      8
+      9     import os
+     10     import re
+     11     import sys
+     12     from collections import deque
+     13
+     14     from io import StringIO
+     15
+     16     __all__ = ["shlex", "split", "quote"]
+     17
+     18     class shlex:
+     19         "A lexical analyzer class for simple shell-like syntaxes."
+     20         def __init__(self, instream=None, infile=None, posix=False):
+     21             if isinstance(instream, str):
+     22                 instream = StringIO(instream)
+     23             if instream is not None:
+     24                 self.instream = instream
+     25                 self.infile = infile
+     26             else:
+     27                 self.instream = sys.stdin
+     28                 self.infile = None
+     29             self.posix = posix
+     30             if posix:
+     31                 self.eof = None
+     32             else:
+     33                 self.eof = ''
+     34             self.commenters = '#'
+     35             self.wordchars = ('abcdfeghijklmnopqrstuvwxyz'
+     36                               'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_')
+     37             if self.posix:
+    Traceback (most recent call last):
+      File "C:\Users\gmond071\AppData\Local\Continuum\Anaconda3\lib\pdb.py", line 1661, in main
+        pdb._runscript(mainpyfile)
+      File "C:\Users\gmond071\AppData\Local\Continuum\Anaconda3\lib\pdb.py", line 1542, in _runscript
+        self.run(statement)
+      File "C:\Users\gmond071\AppData\Local\Continuum\Anaconda3\lib\bdb.py", line 431, in run
+        exec(cmd, globals, locals)
+      File "<string>", line 1, in <module>
+      File "c:\users\gmond071\documents\github\pdb-helper-talk\script.py", line 2, in <module>
+        import sys
+      File "c:\users\gmond071\documents\github\pdb-helper-talk\script.py", line 2, in <module>
+        import sys
+      File "C:\Users\gmond071\AppData\Local\Continuum\Anaconda3\lib\bdb.py", line 48, in trace_dispatch
+        return self.dispatch_line(frame)
+      File "C:\Users\gmond071\AppData\Local\Continuum\Anaconda3\lib\bdb.py", line 66, in dispatch_line
+        self.user_line(frame)
+      File "C:\Users\gmond071\AppData\Local\Continuum\Anaconda3\lib\pdb.py", line 259, in user_line
+        self.interaction(frame, None)
+      File "C:\Users\gmond071\AppData\Local\Continuum\Anaconda3\lib\pdb.py", line 346, in interaction
+        self._cmdloop()
+      File "C:\Users\gmond071\AppData\Local\Continuum\Anaconda3\lib\pdb.py", line 319, in _cmdloop
+        self.cmdloop()
+      File "C:\Users\gmond071\AppData\Local\Continuum\Anaconda3\lib\cmd.py", line 138, in cmdloop
+        stop = self.onecmd(line)
+      File "C:\Users\gmond071\AppData\Local\Continuum\Anaconda3\lib\pdb.py", line 412, in onecmd
+        return cmd.Cmd.onecmd(self, line)
+      File "C:\Users\gmond071\AppData\Local\Continuum\Anaconda3\lib\cmd.py", line 217, in onecmd
+        return func(arg)
+      File "C:\Users\gmond071\AppData\Local\Continuum\Anaconda3\lib\pdb.py", line 1266, in do_source
+        self._print_lines(lines, lineno)
+      File "C:\Users\gmond071\AppData\Local\Continuum\Anaconda3\lib\pdb.py", line 1289, in _print_lines
+        self.message(s + '\t' + line.rstrip())
+      File "C:\Users\gmond071\AppData\Local\Continuum\Anaconda3\lib\pdb.py", line 447, in message
+        print(msg, file=self.stdout)
+      File "C:\Users\gmond071\AppData\Local\Continuum\Anaconda3\lib\encodings\cp437.py", line 19, in encode
+        return codecs.charmap_encode(input,self.errors,encoding_map)[0]
+    UnicodeEncodeError: 'charmap' codec can't encode character '\xe3' in position 42: character maps to <undefined>
+    Uncaught exception. Entering post mortem debugging
+    Running 'cont' or 'step' will restart the program
+    > c:\users\gmond071\appdata\local\continuum\anaconda3\lib\encodings\cp437.py(19)encode()
+    -> return codecs.charmap_encode(input,self.errors,encoding_map)[0]
+
+Navigation (3 min):
+  ☐ next
+  ☐ until
+  ☐ step
+  ☐ continue
+  ☐ return
+  ☐ restart
+
+Breakpoints (5 min):
+  ☐ break
+  ☐ where
+  ☐ up
+  ☐ down
+  ☐ condition
+  ☐ disable
+  ☐ enable
+  ☐ ignore
+  ☐ clear
+  ☐ tbreak
+  ☐ jump
+  ☐ display
+  ☐ undisplay
+
+Shortcuts and advanced commands (5 min):
+  ☐ interact
+  ☐ alias
+  ☐ unalias
+  ☐ commands
+  ☐ debug
+
+
+difficulties:
+ ☐ issue: on windows I had to quit() twice in the pdb when I'm in post-mortem
