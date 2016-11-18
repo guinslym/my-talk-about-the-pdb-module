@@ -3,17 +3,18 @@ import random
 import statistics
 import my_other_script
 
+def divide_function(denominator):
+    return 10 / denominator
 
-def first_frame(m, age=18):
-    a=4
-    b=2
-    import pdb; pdb.set_trace()
-    m = m/0
-    return m
+def calling_the_divide_function(value=4):
+    val = value
+    val = divide_by_zero(value):
 
-
-
-
+def return_a_range(value=5):
+    a = dict()
+    value = range(9)
+    value = value([::-1]
+    return value
 
 if __name__ == "__main__":
 	students = [
