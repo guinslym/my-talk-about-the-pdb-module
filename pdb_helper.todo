@@ -311,4 +311,37 @@ Display value (2 min:script2.py):
   ☐ pp
   ☐ args
   ☐ retval
-  ☐ source
+  ☐ source runpy
+
+Navigation (3 min:script3.py):
+  ☐ next
+  ☐ until 23
+  ☐ step
+  ☐ continue
+  ☐ return
+  ☐ restart 10 2 (args_script)
+
+Traceback and Frame
+Breakpoints (5 min: script4.py):
+  ☐ traceback shlexl
+  ☐ where
+  ☐ up/down
+  ☐ break 7 
+  ☐ break 17 
+  ☐ break 
+  ☐ tbreak
+  ☐ condition only if prime_number between 500-1000
+  ☐ breakpoint filename.py
+  ☐ enable/disable
+  ☐ disable 5
+  ☐ ignore
+  ☐ clear
+  ☐ jump (find example)
+  ☐ display/undisplay (find example)
+
+Shortcuts and advanced commands (5 min):
+  ☐ interact
+  ☐ alias
+  ☐ unalias
+  ☐ commands
+  ☐ debug
