@@ -27,14 +27,19 @@ Not:
  ☐ I'm using python 3
  ☐ sometimes I lost my cursor with ll l w. I don't know where I am
 
+Todo:
+ ☐ Make sure that every section has a Slides
+ ☐ Make sure that every section has 3 examples
 
 Where am I? (2min):
   ☐ list
   ☐ longlist
   ☐ where
   ☐ help
-  ☐ EOF
   ☐ quit
+  ☐ EOF
+
+Hi! There is two way to quit pdb 'quit' and 'exit'.There is a command call 'EOF' it quits also the program but it's not an alias of (quit/exit). So my question is what is the utility of 'EOF' or what advantages that it offers that 'quit' and 'exit' doesn't offer.
 
 Display value (2 min):
   ☐ p
@@ -53,19 +58,16 @@ Navigation (3 min):
   ☐ restart
 
 Breakpoints (5 min):
-  ☐ break
   ☐ where
-  ☐ up
-  ☐ down
+  ☐ up/down
+  ☐ break
+  ☐ tbreak
   ☐ condition
-  ☐ disable
-  ☐ enable
+  ☐ enable/disable
   ☐ ignore
   ☐ clear
-  ☐ tbreak
   ☐ jump
-  ☐ display
-  ☐ undisplay
+  ☐ display/undisplay
 
 Shortcuts and advanced commands (5 min):
   ☐ interact
@@ -287,3 +289,26 @@ Shortcuts and advanced commands (5 min):
 
 difficulties:
  ☐ issue: on windows I had to quit() twice in the pdb when I'm in post-mortem
+
+
+
+
+Where am I? (2min:script1):
+  ☐ list
+  ☐ longlist
+  ☐ list 10
+  ☐ where
+  ☐ help
+  ☐ help shortcut
+  ☐ ?
+  ☐ quit
+  ☐ EOF
+
+Display value (2 min:script2.py):
+  ☐ pdb.methods runcall()
+  ☐ whatis
+  ☐ p
+  ☐ pp
+  ☐ args
+  ☐ retval
+  ☐ source
