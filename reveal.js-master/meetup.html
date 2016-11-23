@@ -45,9 +45,28 @@
 						<h1>PDB</h1>
 						<h3>Getting started with pdb</h3>
 						<p>
-							<small>Created by <a href="http://hakim.se">Guinsly Mondesir</a> / <a href="http://twitter.com/hakimel">@guinslym</a> <a href="http://www.uopy.ca">UOPy</a></small>
+							<small><a href="http://hakim.se">Guinsly Mondésir</a> / <a href="http://twitter.com/hakimel">@guinslym</a> <br> Msc Information Studies @ UOttawa <br> <a href="http://www.uopy.ca">UOPy</a> / <a href="http://www.bpm2.xyz">BPM<sup>2</sup></a></small>
 						</p>
 					</section>
+						<!-- 
+				<section id="themes">
+					<h2>Themes</h2>
+					<p>
+						reveal.js comes with a few themes built in: <br>
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
+					</p>
+				</section>
+				. -->
 					<section>
 						<h3>Overview</h3>
 						<ul>
@@ -63,23 +82,24 @@
 						<h1>What is Debugging</h1>
 						<p>
 							<blockquote cite="http://">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem veritatis, adipisci iure ipsa, amet explicabo sequi voluptatum.
+								It's the process to halt the execution of a machine so that we can <em>inspect, inject and step through code </em> in order to find what is going or what went wrong.
 							</blockquote>
 						</p>
 					</section>
 					<section>
 						<h2>Start the python debugger</h2>
 						<p>python -m pdb script.py</p>
-						<p>pdb.object</p>
+						<p>pdb.<em style='color:tomato'>methods()</em></p>
 					</section>
 					<section>
 						<h2>Commands</h2>
-						<ul>
-							<li>Where am I? (2 min:script1.py)</li>
-							<li>Display value (2 min:script2.py)</li>
-							<li>Navigation (3 min:script3.py)</li>
-							<li>Breakpoints (5 min: script4.py)</li>
-							<li>Shortcuts and advanced commands (5 min)</li>
+						<ul id="fragments"> 
+
+							<li class="fragment grow">Where am I? (2 min:script1.py)</li>
+							<li class="fragment grow">Display value (2 min:script2.py)</li>
+							<li class="fragment grow">Navigation (3 min:script3.py)</li>
+							<li class="fragment grow">Breakpoints (5 min: script4.py)</li>
+							<li class="fragment grow">Shortcuts and advanced commands (5 min)</li>
 						</ul>
 					</section>
 				</section>
@@ -87,14 +107,26 @@
 				<section>
 					<section>
 						<h2>Where am I? (2min:script1)</h2>
-						<ul>
-							<li>list</li>
-							<li>longlist</li>
-							<li>where</li>
-							<li>help</li>
-							<li>quit</li>
+						<ul id="">
+							<li  class="">list</li>
+							<li  class="">longlist</li>
+							<li  class="">where</li>
+							<li  class="">help</li>
+							<li  class="">quit</li>
 						</ul>
 					</section>
+					<!--
+					<section>
+						<h2>Fragment Styles</h2>
+						<p>There's different types of fragments, like:</p>
+						<p class="fragment grow">grow</p>
+						<p class="fragment shrink">shrink</p>
+						<p class="fragment fade-out">fade-out</p>
+						<p class="fragment fade-up">fade-up (also down, left and right!)</p>
+						<p class="fragment current-visible">current-visible</p>
+						<p>Highlight <span class="fragment highlight-red">red</span> <span class="fragment highlight-blue">blue</span> <span class="fragment highlight-green">green</span></p>
+					</section>
+					-->
 				</section>
 
 				<section>
