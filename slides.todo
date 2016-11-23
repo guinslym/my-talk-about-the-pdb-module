@@ -35,3 +35,10 @@ Where I am:
  ☐ list 11 lines
  ☐ see full script : longlist
  ☐ where: Have also other knowledge that we will see later
+ ☐ Help:
+ ☐ help list
+ ☐ help 5, 16
+ ☐ quit
+
+printing the value:
+ ☐ Using the value script: cat value_script
