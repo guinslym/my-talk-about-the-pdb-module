@@ -26,6 +26,7 @@ How to start the python debugger:
  ☐ python script 1
  ☐ vim python1
  ☐ run pdb
+ ☐ going through a list of commands and fine the one that you want to use
 
 
 Where I am:
@@ -52,6 +53,12 @@ printing the value:
 
 navigation:
  ☐ Now we are getting closer to be a pdb power user
+ ☐ list 1,5
  ☐ next => see the execution line by line
- ☐ next is sometime boring until that line
- ☐ 
+ ☐ next is sometime boring if I have 300 lines of script: until that line
+ ☐ step => enter a
+ ☐ continue (continue to execute) the hole program without stopping
+ ☐ return
+ ☐ restart
+ ☐ restart args_script
+ ☐ follow the arrow 
