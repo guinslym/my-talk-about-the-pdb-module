@@ -51,7 +51,7 @@ printing the value:
  ☐ retval
  ☐ source runpy
 
-navigation:
+workflow:
  ☐ Now we are getting closer to be a pdb power user
  ☐ list 1,5
  ☐ next => see the execution line by line
@@ -62,3 +62,7 @@ navigation:
  ☐ restart
  ☐ restart args_script
  ☐ follow the arrow 
+
+
+breakpoints:
+ ☐ become a master of pdb
