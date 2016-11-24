@@ -3,6 +3,7 @@ import shlex
 import runpy
 from my_other_script import students_list
 
+
 def sentences():
     """
     dummy function that returns the last value of a split sentence
