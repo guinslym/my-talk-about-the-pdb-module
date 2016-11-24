@@ -42,3 +42,10 @@ Where I am:
 
 printing the value:
  ☐ Using the value script: cat value_script
+ ☐ using the runcall()
+ ☐ There is no bug
+ ☐ whatis => type(object)
+ ☐ args => student_list
+ ☐ return (see later)
+ ☐ retval
+ ☐ source runpy

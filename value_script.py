@@ -3,7 +3,7 @@ import runpy
 from my_other_script import students_list
 
 
-def divide(denominator=2, other_val=students_list):
+def divide(denominator=2, students=students_list):
     """
     dummy function that divide 10 by a given number
     return: a list
