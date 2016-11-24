@@ -1,6 +1,6 @@
 import code
-import shlex
 import runpy
+import shlex
 from my_other_script import students_list
 
 
