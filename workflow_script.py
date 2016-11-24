@@ -12,13 +12,13 @@ def divide(denominator=2, other_val=students_list):
     dummy function that divide 10 by a given number
     return: a list
     """
-    num_list = []
+    list_num = []
     for value in [3,2,1]:
         denominator *= value
         answer = 10 / denominator
-        num_list.append(answer)
+        list_num.append(answer)
     my_sentence = sentences()
-    return num_list
+    return list_num
 
 if __name__ == "__main__":
     divide()
