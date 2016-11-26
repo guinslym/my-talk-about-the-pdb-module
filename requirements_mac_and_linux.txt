@@ -1,0 +1,13 @@
+pudb
+ipdb
+ptptbd
+jupyter
+web-pdb
+wdb.server
+wdb
+
+# If you install pdbpp
+# it will overwrite your pdb
+# so install pdbpp only if you want to overwrite (temporarly) your pdb module.
+# pip install pdbpp
+

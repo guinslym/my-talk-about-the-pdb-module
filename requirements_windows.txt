@@ -1,2 +1,6 @@
 ipdb
 ptptbd
+jupyter
+web-pdb
+wdb.server
+wdb
