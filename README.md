@@ -19,7 +19,6 @@ Note: For the package pdbpp you will need to install it by your self **pip insta
 	cd pdb_example_scripts
 	pip install requirements_mac_and_linux.txt
 
-
 ### Usage of reveal.js (presentation.html)
 	ESC for a zoom out
 	ALT CLICK to zoom
