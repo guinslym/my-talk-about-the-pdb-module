@@ -1,3 +1,5 @@
+# python 2.7
+# https://github.com/Kozea/wdb
 from threading import Thread 
 
 def work(x):
