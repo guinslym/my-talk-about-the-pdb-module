@@ -1,7 +1,9 @@
 ## Presentation about pdb
 	author: Guinsly Mondésir
+	date: November 24th 2016
+	Meetup: [OPAG](https://www.meetup.com/ottawapython/events/234386049/)
 
-### Presentation (Talk)
+### Clone the repo
 	git clone git@github.com:guinslym/my-talk-about-the-pdb-module.git
 	cd my-talk-about-the-pdb-module
 	Open **presentation.html** in your browser 
