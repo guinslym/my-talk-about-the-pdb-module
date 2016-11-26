@@ -1,6 +1,13 @@
 ipdb
-ptptbd
+
+# https://github.com/jonathanslenders/ptpdb
+ptpbd
+
 jupyter
+
+# https://github.com/romanvm/python-web-pdb
 web-pdb
-wdb.server
+
+
+# https://github.com/Kozea/wdb
 wdb

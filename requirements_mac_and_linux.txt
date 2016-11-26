@@ -1,8 +1,16 @@
 pudb
 ipdb
-ptptbd
+
+# https://github.com/jonathanslenders/ptpdb
+ptpbd
+
 jupyter
+
+# https://github.com/romanvm/python-web-pdb
 web-pdb
+
+
+# https://github.com/Kozea/wdb
 wdb.server
 wdb
 
@@ -10,4 +18,3 @@ wdb
 # it will overwrite your pdb
 # so install pdbpp only if you want to overwrite (temporarly) your pdb module.
 # pip install pdbpp
-
