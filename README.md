@@ -23,4 +23,4 @@ Note: For the package pdbpp you will need to install it by your self **pip insta
 	ALT CLICK to zoom
 
 ### License
-	MIT
+	BSD 2-Clause License
