@@ -21,7 +21,7 @@ Note: For the package pdbpp you will need to install it by your self **pip insta
 
 ### Usage of reveal.js (presentation.html)
 	ESC for a zoom out
-	ALT CLICK to zoom
+	ALT CLICK to zoom in
 
 ### License
 	BSD 2-Clause License ==> https://opensource.org/licenses/BSD-2-Clause
