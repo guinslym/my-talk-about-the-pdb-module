@@ -1,4 +1,4 @@
-## Presentation about pdb
+## Getting started with pdb
 	author: Guinsly Mondésir
 	date: November 24th 2016
 	Meetup: OPAG ==> https://www.meetup.com/ottawapython/events/234386049/
