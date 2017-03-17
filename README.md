@@ -9,7 +9,7 @@
 	Open **presentation.html** in your browser 
 
 ### Installation packages
-Note: For the package pdbpp you will need to install it by your self **pip install pdbpp** because it overwrites teh pdb module. So when you will import pdb you will have new commands. it's better to not install it and look what pdb offers and other packages too then you can install **pdbpp** later.
+Note: For the package pdbpp you will need to install it by your self **pip install pdbpp** because it overwrites the pdb module. So when you will import pdb you will have new commands. it's better to not install it and look what pdb offers and other packages too then you can install **pdbpp** later.
 
 #### On Windows
 	cd pdb_example_scripts
